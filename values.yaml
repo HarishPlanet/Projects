@@ -1,0 +1,21 @@
+image:
+  repository: aharish7/sampleproject
+  tag: latest
+replicaCount: 2
+service:
+  type: ClusterIP
+  port: 3000
+route:
+  enabled: true
+  host: sampleproject.example.com
+rbac:
+  enabled: true
+resources:
+  limits:
+    memory: "256Mi"
+    cpu: "500m"
+  requests:
+    memory: "128Mi"
+    cpu: "250m"
+namespace: 621522-sampleproject
+

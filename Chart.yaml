@@ -1,0 +1,5 @@
+apiVersion: v2
+name: 621522-helm-webapp
+description: A Helm chart for deploying a React application to OpenShift
+version: 0.1.0
+appVersion: "1.0.0"
